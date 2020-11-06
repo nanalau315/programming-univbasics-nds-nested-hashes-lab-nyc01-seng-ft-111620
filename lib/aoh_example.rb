@@ -15,7 +15,7 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  new_aoh = %w[DON_G[:name][:occupation] JOELLE_VD PAT_M KATE_G BRUCE_G]
+  new_aoh = %w[DON_G[0] JOELLE_VD[0] PAT_M[0] KATE_G[0] BRUCE_G[0]]
 end
 
 def aoh_lookup(aoh, row, key)
